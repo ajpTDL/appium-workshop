@@ -86,4 +86,4 @@ DEPENDENCIES
   test-unit (~> 2.5.5)
 
 BUNDLED WITH
-   1.13.6
+   1.13.7
