@@ -3054,6 +3054,7 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/642acfc7-a684-497f-8895-fa19ffffd141 200 2729 ms - 76 
+<<<<<<< 7833a970e98cecfde1d862be53ee8c1e5d3b9ec5
 [Appium] Welcome to Appium v1.6.3 (REV 2bf8c12f61343871efbd3b8182482d9703cf840e)
 [Appium] Non-default server args:
 [Appium]   port: 5500
@@ -25935,3 +25936,5 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/5711d725-8ba4-4f91-8b80-d74a624a9ce3 200 2764 ms - 76 
+=======
+>>>>>>> add tests for screen items
