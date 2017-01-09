@@ -3054,6 +3054,7 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/642acfc7-a684-497f-8895-fa19ffffd141 200 2729 ms - 76 
+<<<<<<< 3e9b6397113574fbc582cc8d000537bfa428d6f8
 <<<<<<< d89e1d5e11f05b24d9ebc2cdce9eda40d2e3f2bf
 <<<<<<< be8941ef4b5903d8fedb7285a61f62502fe425c8
 =======
@@ -25950,3 +25951,5 @@
 >>>>>>> create test for adding filter
 =======
 >>>>>>> configs
+=======
+>>>>>>> add tests for screen items
