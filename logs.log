@@ -3054,9 +3054,12 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/642acfc7-a684-497f-8895-fa19ffffd141 200 2729 ms - 76 
+<<<<<<< 90113a483f72d27782e5dec3290aee7f85f64dc5
 <<<<<<< 3e9b6397113574fbc582cc8d000537bfa428d6f8
 <<<<<<< d89e1d5e11f05b24d9ebc2cdce9eda40d2e3f2bf
 <<<<<<< be8941ef4b5903d8fedb7285a61f62502fe425c8
+=======
+>>>>>>> create test for adding filter
 =======
 >>>>>>> create test for adding filter
 [Appium] Welcome to Appium v1.6.3 (REV 2bf8c12f61343871efbd3b8182482d9703cf840e)
@@ -24152,6 +24155,7 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/8a78e81c-3c1c-45c7-86b2-6fee9841562a 200 2525 ms - 76 
+<<<<<<< 90113a483f72d27782e5dec3290aee7f85f64dc5
 <<<<<<< 5064edb12391e86e5d8c4b37ca7b06a3dd9b380b
 <<<<<<< d89e1d5e11f05b24d9ebc2cdce9eda40d2e3f2bf
 =======
@@ -25953,3 +25957,5 @@
 >>>>>>> configs
 =======
 >>>>>>> add tests for screen items
+=======
+>>>>>>> create test for adding filter
