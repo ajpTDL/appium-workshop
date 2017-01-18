@@ -37,13 +37,7 @@ class TestAddFilter
     end
   end
 
-    def submit_filter_data
-      set_filter_name
-      set_all_parameters
-      @screens.screen_set_filter_parameters.save_filter
-    end
-
-  def submit_empty_filter_parameters
+  def submit_filter_parameters
     @screens.screen_set_filter_parameters.visible?
     @screens.screen_set_filter_parameters.save_filter
   end
@@ -51,5 +45,9 @@ class TestAddFilter
   def create_filter
     open_filter_parameter_screen
     submit_filter_data
+
+  def set_name(filter_name)
+    @screens.screen_set_filter_parameters.visible?
+    @screens.screen_set_filter_parameters.set_name filter_name
   end
 end
