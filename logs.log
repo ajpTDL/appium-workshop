@@ -3054,6 +3054,7 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/642acfc7-a684-497f-8895-fa19ffffd141 200 2729 ms - 76 
+<<<<<<< d6368df43db58b461cc5d636541405a4dedeabf2
 <<<<<<< b61cd0b4476de929e3315261e56dcfbe686298c7
 <<<<<<< 90113a483f72d27782e5dec3290aee7f85f64dc5
 <<<<<<< 3e9b6397113574fbc582cc8d000537bfa428d6f8
@@ -3066,6 +3067,12 @@
 =======
 <<<<<<< 7833a970e98cecfde1d862be53ee8c1e5d3b9ec5
 >>>>>>> add tests for screen items
+=======
+<<<<<<< 5c97db2a20812c0781e75ec3319c1a315f4ddfee
+<<<<<<< 7833a970e98cecfde1d862be53ee8c1e5d3b9ec5
+=======
+>>>>>>> create test for adding filter
+>>>>>>> create test for adding filter
 [Appium] Welcome to Appium v1.6.3 (REV 2bf8c12f61343871efbd3b8182482d9703cf840e)
 [Appium] Non-default server args:
 [Appium]   port: 5500
@@ -24159,6 +24166,7 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/8a78e81c-3c1c-45c7-86b2-6fee9841562a 200 2525 ms - 76 
+<<<<<<< d6368df43db58b461cc5d636541405a4dedeabf2
 <<<<<<< 2921a298b964b7b0b0576e2679a566e418e38404
 <<<<<<< 90113a483f72d27782e5dec3290aee7f85f64dc5
 <<<<<<< 5064edb12391e86e5d8c4b37ca7b06a3dd9b380b
@@ -24167,6 +24175,9 @@
 >>>>>>> configs
 =======
 >>>>>>> configs
+=======
+<<<<<<< 5c97db2a20812c0781e75ec3319c1a315f4ddfee
+>>>>>>> create test for adding filter
 [Appium] Received SIGTERM - shutting down
 [Appium] Welcome to Appium v1.6.3 (REV 2bf8c12f61343871efbd3b8182482d9703cf840e)
 [Appium] Non-default server args:
@@ -25974,3 +25985,5 @@
 =======
 >>>>>>> add tests for screen items
 >>>>>>> add tests for screen items
+=======
+>>>>>>> create test for adding filter

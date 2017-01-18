@@ -46,6 +46,7 @@ class TestAddFilter
   def create_filter
     open_filter_parameter_screen
     submit_filter_data
+  end
 
   def set_name(filter_name)
     @screens.screen_set_filter_parameters.visible?
