@@ -24151,7 +24151,10 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/8a78e81c-3c1c-45c7-86b2-6fee9841562a 200 2525 ms - 76 
+<<<<<<< cad767f62f80de5f335287c9be6c47a90308656f
 <<<<<<< 5c97db2a20812c0781e75ec3319c1a315f4ddfee
+=======
+>>>>>>> configs
 [Appium] Received SIGTERM - shutting down
 [Appium] Welcome to Appium v1.6.3 (REV 2bf8c12f61343871efbd3b8182482d9703cf840e)
 [Appium] Non-default server args:
@@ -25940,7 +25943,10 @@
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 [HTTP] <-- DELETE /wd/hub/session/5711d725-8ba4-4f91-8b80-d74a624a9ce3 200 2764 ms - 76 
+<<<<<<< cad767f62f80de5f335287c9be6c47a90308656f
 =======
 >>>>>>> add tests for screen items
 =======
 >>>>>>> create test for adding filter
+=======
+>>>>>>> configs
