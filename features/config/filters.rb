@@ -2,7 +2,14 @@ require 'yaml'
 class Filter
   attr_accessor :name, :category, :sub_categories, :parameters
 
-  def initialize(type)
+  def initialize
+    @name = ""
+    @category = ""
+    @sub_categories = []
+    @parameters = []
+  end
+
+  def load_config(type)
     config = YAML.load_file('features/config/filters.yml')[type]
     @name = config['name']
     @category = config['category']
@@ -30,6 +37,3 @@ class Filter
     print "\n\n"
   end
 end
-filter = Filter.new('property_positive')
-
-filter.print_properties

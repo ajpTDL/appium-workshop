@@ -3,7 +3,7 @@ class TestAddFilter
   attr_accessor :driver
   def initialize(screens)
     @screens = screens
-    @filter_data = Filter.new('property_positive')
+    @filter_data = Filter.new()
   end
 
   def select_category
@@ -43,8 +43,10 @@ class TestAddFilter
     @screens.screen_set_filter_parameters.save_filter
   end
 
-  def create_filter
+  def create_filter(type)
+    @filter_data.load_config(type)
     open_filter_parameter_screen
+    set_all_parameters
     submit_filter_data
   end
 
