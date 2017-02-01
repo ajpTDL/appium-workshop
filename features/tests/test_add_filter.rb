@@ -47,11 +47,16 @@ class TestAddFilter
     @filter_data.load_config(type)
     open_filter_parameter_screen
     set_all_parameters
+    set_filter_name
     submit_filter_data
   end
 
   def set_name(filter_name)
     @screens.screen_set_filter_parameters.visible?
     @screens.screen_set_filter_parameters.set_name filter_name
+  end
+
+  def go_to_main
+    @screens.screen_create_filter.go_to_main
   end
 end
