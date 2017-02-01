@@ -35,6 +35,26 @@ Given /^I create property filter$/ do
  @tests.test_add_filter.create_filter('property_positive')
 end
 
+Given /^I create transport filter$/ do
+  @tests.test_add_filter.create_filter('transport_positive')
+end
+
+Given /^I create work filter$/ do
+  @tests.test_add_filter.create_filter('work_positive')
+end
+
+Given /^I attempt to create transport filter$/ do
+  @tests.test_add_filter.create_filter('transport_negative')
+end
+
+Given /^I attempt to create work filter$/ do
+  @tests.test_add_filter.create_filter('work_negative')
+end
+
 Then /^I am on my filters screen$/ do
   @tests.test_my_filters.filter_visible?
+end
+
+Given /^I navigate to home screen$/ do
+  @tests.test_add_filter.go_to_main
 end
