@@ -58,3 +58,11 @@ end
 Given /^I navigate to home screen$/ do
   @tests.test_add_filter.go_to_main
 end
+
+Given /^I create property filter with parameters$/ do
+ @tests.test_add_filter.create_filter_with_parameters
+end
+
+Then /^I am on my filters screen$/ do
+  @tests.test_my_filters.filter_visible?
+end
