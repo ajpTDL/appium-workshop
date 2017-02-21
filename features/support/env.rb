@@ -20,11 +20,14 @@ p ENV['apk']
 p ENV['curdevice']
 options = {
   'port' => ENV['port'],
+  #'port' => 5500,
   'portboot' => ENV['boot_port'],
+  #'portboot' => 5600,
   'sn' => ENV['curdevice'],
+  #'sn' => '0216026d49963d03',
   'app' => ENV['apk'],
+  #'app' => 'app.apk',
   'appPackage' => 'com.testdevlab.notifyus'
-
 }
 server = Server.new(options)
 server.reinstall_app

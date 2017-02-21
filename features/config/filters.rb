@@ -14,12 +14,16 @@ class Filter
     @name = config['name']
     @category = config['category']
     @sub_categories = []
-    config['sub_categories'].each do |sub_cat|
-      @sub_categories.push sub_cat
+    if config.has_key? 'sub_categories'
+      config['sub_categories'].each do |sub_cat|
+        @sub_categories.push sub_cat
+      end
     end
     @parameters = []
-    config['parameters'].each do |parameter|
-      @parameters.push parameter
+    if config.has_key? 'parameters'
+      config['parameters'].each do |parameter|
+        @parameters.push parameter
+      end
     end
   end
 

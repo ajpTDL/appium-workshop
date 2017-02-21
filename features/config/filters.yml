@@ -32,7 +32,7 @@ transport_positive:
       option: 'Vieglie auto'
     - sub_category:
       title: 'Vieglie auto'
-      option: 'Mini'
+      option: 'Lexus'
     - sub_category:
       title: 'Lexus'
       option: 'Lexus IS'
@@ -95,15 +95,9 @@ work_positive:
     - sub_category:
       title: 'Vakances'
       option: 'Kalējs'
-    - sub_category:
-      title: 'Darbība'
-      option: 'Visi'
 work_negative:
   category: 'Vakances'
   sub_categories:
     - sub_category:
       title: 'Vakances'
       option: 'Korektors'
-    - sub_category:
-      title: 'Darbība'
-      option: 'Visi'

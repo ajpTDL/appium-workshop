@@ -39,5 +39,9 @@ Given /^I navigate to home screen$/ do
 end
 
 Given /^I validate created filter$/ do
-  @tests.test_my_filters.filter_visible?
+  @tests.test_add_filter.filter_visible?
+end
+
+Given /^I am on parameters screen$/ do
+  @tests.test_add_filter.parameter_screen_visible?
 end

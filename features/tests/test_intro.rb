@@ -9,8 +9,7 @@ class TestIntro
   end
 
   def close_intro
-    @screens.screen_intro.visible?
-    @screens.screen_intro.close_intro
+    @screens.screen_intro.go_to_app
     @screens.screen_create_filter.visible?
   end
 end

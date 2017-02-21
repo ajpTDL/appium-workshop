@@ -13,7 +13,7 @@ class ScreenSetFilterParameters < ScreenBase
   def visible?
     @driver.wait do
       @driver.find_element(
-        @parameter_holders[:type], @parameter_holders[:value]
+        @filter_name[:type], @filter_name[:value]
       ).displayed?
     end
   end
