@@ -13,7 +13,9 @@ class ScreenMyFilters < ScreenBase
       @driver.find_elements(
         @screen_name_my_filters[:type], @screen_name_my_filters[:value]
       ).each do |text|
-        next unless text.text == ''
+        next unless text.text == 'Meklēšanas filtri'
+        visible = true
+        break
       end
     end
     visible
