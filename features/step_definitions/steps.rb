@@ -30,7 +30,6 @@ Given /^I have opened create filter screen$/ do
   @tests.test_intro.close_intro
 end
 
-
 Given /^I create (.*?) filter$/ do |filter_type|
  @tests.test_add_filter.create_filter(filter_type)
 end
